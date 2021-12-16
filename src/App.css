@@ -1,38 +1,70 @@
 .App {
   text-align: center;
+  background-color:burlywood;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+.form-container{
+  background: url('https://images.unsplash.com/photo-1639681150011-3170703db543?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOXx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60');
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 30px;
+  padding:5% 1%;
+  display:flex;
+  justify-content:center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.form-group {
+  color: rgba(151, 255, 142, 0.658);
+  width:65%;
+  display:flex;
+  flex-flow: column wrap;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items:center;
 }
 
-.App-link {
-  color: #61dafb;
+h2 {
+  font-weight:900;
+  font-size: 90px;
+  margin: 0%;
+  padding:3%;
+  background-clip: text;
+	-webkit-background-clip: text;
+	color: transparent;
+	background-image: url('https://images.unsplash.com/photo-1639674242533-e826a9992373?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60');
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h4{
+  font-weight:800;
+  font-size:40px;
+  margin:0%;
+  padding:4%;
+}
+
+.name {
+  display:flex;
+  justify-content:center;
+  margin: 3% 0%;
+}
+
+.email {
+  display:flex;
+  justify-content:center;
+  margin: 3% 0%;
+}
+
+.password {
+  display:flex;
+  justify-content: center;
+  margin: 3% 0%;
+}
+
+.terms {
+  display:flex;
+  justify-content:center;
+  padding: 5%;
+}
+
+button {
+  width:100%;
 }

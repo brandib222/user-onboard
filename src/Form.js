@@ -32,7 +32,7 @@ export default function Form(props) {
                 </div>
                 <div className='form-group inputs'>
                     <h4>Info</h4>
-                    <label>Name
+                    <label className='name'>Name :
                         <input 
                             value={values.name}
                             onChange={onChange}
@@ -40,7 +40,7 @@ export default function Form(props) {
                             type='text'
                         />
                     </label>
-                    <label> Email
+                    <label className='email'> Email :   
                         <input 
                             value={values.email}
                             onChange={onChange}
@@ -48,7 +48,7 @@ export default function Form(props) {
                             type='text'
                         />
                     </label>
-                    <label> Password
+                    <label className='password'> Password :
                         <input 
                             value={values.password}
                             onChange={onChange}
@@ -56,7 +56,7 @@ export default function Form(props) {
                             type='text'
                         />
                     </label>
-                    <label> Terms of Service
+                    <label className='terms'> Terms of Service
                         <input 
                             type='checkbox'
                             name='terms'
