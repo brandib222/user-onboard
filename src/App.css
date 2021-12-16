@@ -15,7 +15,7 @@
 }
 
 .form-group {
-  color: rgba(151, 255, 142, 0.658);
+  color: rgb(26, 175, 121);
   width:65%;
   display:flex;
   flex-flow: column wrap;
@@ -32,6 +32,8 @@ h2 {
 	-webkit-background-clip: text;
 	color: transparent;
 	background-image: url('https://images.unsplash.com/photo-1639674242533-e826a9992373?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60');
+  
+
 }
 
 h4{
@@ -67,4 +69,5 @@ h4{
 
 button {
   width:100%;
+  padding: 3%;
 }
